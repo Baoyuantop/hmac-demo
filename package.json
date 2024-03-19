@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "author": "Baoyuan <baoyuan.top@gmail.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.4",
+    "@types/crypto-js": "^4.2.2",
+    "antd": "^5.15.3",
+    "axios": "^1.6.8",
+    "axios-adapter-hmac": "^0.1.1",
+    "crypto-js": "4.2.0",
+    "umi": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "typescript": "^5.4.2"
+  }
+}
